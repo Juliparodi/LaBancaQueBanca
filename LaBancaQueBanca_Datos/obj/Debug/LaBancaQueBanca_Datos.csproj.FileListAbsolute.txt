@@ -1,0 +1,11 @@
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\obj\Debug\LaBancaQueBanca_Datos.csprojAssemblyReference.cache
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\obj\Debug\LaBancaQueBanca_Datos.csproj.CoreCompileInputs.cache
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\LaBancaQueBanca_Datos.dll
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\LaBancaQueBanca_Datos.pdb
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\LaBancaQueBanca_Entidades.dll
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\LaBancaQueBanca_Entidades.pdb
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\obj\Debug\LaBancaQueBanca_Datos.csproj.CopyComplete
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\obj\Debug\LaBancaQueBanca_Datos.dll
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Datos\obj\Debug\LaBancaQueBanca_Datos.pdb
