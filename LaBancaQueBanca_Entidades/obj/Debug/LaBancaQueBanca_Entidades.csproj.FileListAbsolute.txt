@@ -3,3 +3,4 @@ C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBan
 C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Entidades\obj\Debug\LaBancaQueBanca_Entidades.csproj.CoreCompileInputs.cache
 C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Entidades\obj\Debug\LaBancaQueBanca_Entidades.dll
 C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Entidades\obj\Debug\LaBancaQueBanca_Entidades.pdb
+C:\Users\julia\CAI\repositorios\La_Banca_Que_Banca\LaBancaQueBanca\LaBancaQueBanca_Entidades\obj\Debug\LaBancaQueBanca_Entidades.csprojAssemblyReference.cache

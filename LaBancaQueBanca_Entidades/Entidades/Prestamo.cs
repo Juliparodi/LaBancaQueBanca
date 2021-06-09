@@ -73,5 +73,10 @@ namespace LaBancaQueBanca_Entidades.Entidades
         {
             return cuotaCapita + cuotaIntereses;
         }
+
+        public override string ToString()
+        {
+            return "linea: " + this.Linea + " con TNA: " + this.Tna + " al usuario: " + this.Usuario;
+        }
     }
 }

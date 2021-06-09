@@ -119,11 +119,19 @@ namespace LaBancaQueBanca_Console
         private void txtMonto_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar);
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
         }
 
         private void txtPlazo_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar);
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
         }
 
         private void btnAlta_Click(object sender, EventArgs e)
@@ -140,7 +148,9 @@ namespace LaBancaQueBanca_Console
                 {
                     MessageBox.Show("prestamo con id: " + result.Id + " se ha ingresado exitosamente");
                     this.lstPrestamos.DataSource = null;
-                    this.lstPrestamos.DataSource = _prestamosNegocio.TraerTodosPrestamos();
+                    List<Prestamo> prestamos = _prestamosNegocio.TraerTodosPrestamos();
+                    this.lstPrestamos.DataSource = prestamos;
+                    this.txtComisionTotal.Text = Operador.calcularComision(prestamos).ToString();
                 }
             }
             catch (Exception ex)

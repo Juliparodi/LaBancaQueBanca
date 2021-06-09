@@ -42,12 +42,14 @@ namespace LaBancaQueBanca_Datos
         {
             NameValueCollection n = new NameValueCollection();
 
-            n.Add("id", prestamo.Id.ToString());
-            n.Add("tna", prestamo.Tna.ToString("0.00"));
-            n.Add("linea", prestamo.Linea);
-            n.Add("plazo", prestamo.Plazo.ToString("0.00"));
-            n.Add("monto", prestamo.Monto.ToString("0.00"));
-            n.Add("usuario", prestamo.Usuario);
+            n.Add("TNA", prestamo.Tna.ToString("0.00"));
+            n.Add("Linea", prestamo.Linea);
+            n.Add("Plazo", prestamo.Plazo.ToString());
+            n.Add("Monto", prestamo.Monto.ToString("0.00"));
+            n.Add("Usuario", "889012");
+            n.Add("Cuota", "10.00");
+            n.Add("idTipo", "1");
+            n.Add("idCliente", "437");
            // n.Add("tipoPrest", prestamo.TipoPrestamo.Id.ToString);
 
             /*
@@ -67,7 +69,7 @@ namespace LaBancaQueBanca_Datos
         {
             try
             {
-                string json2 = WebHelper.Get("prestamoTipo"); // trae un texto en formato json de una web
+                string json2 = WebHelper.Get("prestamo/889012"); // trae un texto en formato json de una web
                 List<Prestamo> resultado = MapListPrestamo(json2);
                 return resultado;
             }
